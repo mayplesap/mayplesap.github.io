@@ -8,8 +8,8 @@ body {
 }
 
 section {
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 8%;
+    margin-right: 8%;
 
 }
 
@@ -65,8 +65,8 @@ nav.sticky {
 }
 
 nav a {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 2%;
+    padding-right: 2%;
     color: white;
     font-size: 1.75em;
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);

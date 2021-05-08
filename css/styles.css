@@ -164,6 +164,10 @@ a.btn:hover {
     flex-wrap: wrap;
 }
 
+.cat img {
+    width: 22em;
+}
+
 .cat > div {
     box-sizing: border-box;
     margin: 25px 25px 0 0;
@@ -194,7 +198,6 @@ a.btn:hover {
 
 #contact p {
     color: #79778d;
-    ;
 }
 
 #contact .social-icon {
@@ -213,8 +216,8 @@ a.btn:hover {
 
 /***** media query *****/
 @media only screen and (max-width: 768px) {
-    cat {
-        width: 80%;
+    .cat img {
+        width: 90%;
     }
     
 }

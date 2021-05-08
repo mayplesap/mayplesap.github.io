@@ -1,0 +1,212 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin-left: 10em;
+    margin-right: 10em;
+
+}
+
+section h1 {
+    font-size: 7em;
+    font-family: 'Bellefair', serif;
+}
+
+section h2 {
+    color: #79778d;
+    font-size: 3em;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+section h3 {
+    color: #79778d;
+    font-size: 2em;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+section p {
+    color: #8882bb;
+    font-size: 1.5em;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+section a {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 1.75em;
+}
+
+section span {
+    color: rgb(233, 170, 205);
+    font-size: 1.5em;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-align:right
+}
+
+
+/********** navigation bar **********/
+nav {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    z-index: 1000;
+    transition: all 300ms ease;
+    transition-property: margin, background-color;
+}
+
+nav.sticky {
+    background-color: #F5E7EB;
+}
+
+nav a {
+    padding-left: 2em;
+    padding-right: 2em;
+    color: white;
+    font-size: 1.75em;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+nav a.scroll {
+    color: #79778d;
+    text-shadow: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: rgb(245, 220, 245);
+}
+
+nav a.scroll:hover {
+    color: #4c487c;
+}
+
+/********** section 1: landing **********/
+#landing {
+    margin: 0;
+    text-align: center;
+    height: 100vh;
+    background-image: url("../img/sakura.jpg");
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 0, 200, 0.1);
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .35);
+}
+
+#landing .inside-land {
+    height: 25%;
+    margin: auto;
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+/********** section 2: about **********/
+#profile-pic {
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 2em;
+}
+
+#about {
+    padding-top: 5em;
+    border-bottom: 1px gray solid;
+    padding-bottom: 5em;
+}
+
+a.btn:hover {
+    border-color: #8882bb;
+    background-color: #8882bb;
+    color: white;
+}
+
+/********** section 3: education **********/
+#edu {
+    border-bottom: 1px gray solid;
+    padding-top: 5em;
+    padding-bottom:5em;
+}
+
+.dev-icons > li {
+    font-size: 3em;
+    display: inline;
+    color: gray;
+}
+
+.list-inline-item:hover {
+    color: rgb(233, 170, 205);
+}
+
+
+/********** section 4: interests **********/
+#interests {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    list-style-type: disc;
+}
+
+.cat {
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cat > div {
+    box-sizing: border-box;
+    margin: 25px 25px 0 0;
+}
+
+/********** image **********/
+#night-sakura {
+    margin-top: 5em;
+    height: 30em;
+    background-image: url(../img/sakura2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/********** section 5: contact **********/
+#contact {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    text-align: center;
+    background-color: #dac7cb;
+    margin: 0;
+}
+
+#contact h2 {
+    color: #79778d;
+}
+
+#contact p {
+    color: #79778d;
+    ;
+}
+
+#contact .social-icon {
+    display: inline-block;
+    width: 15em;
+}
+
+#contact .icon {
+    color: #8575a0;
+}
+
+#contact .icon:hover {
+    color:#a7a2d1;
+    text-decoration: none;
+}

@@ -214,7 +214,7 @@ a.btn:hover {
 /***** media query *****/
 @media only screen and (max-width: 768px) {
     cat {
-        width: 250em;
+        width: 80%;
     }
     
 }

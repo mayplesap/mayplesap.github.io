@@ -121,11 +121,6 @@ nav a.scroll:hover {
     margin-bottom: 2em;
 }
 
-#about {
-    padding-top: 5em;
-    border-bottom: 1px gray solid;
-    padding-bottom: 5em;
-}
 
 a.btn:hover {
     border-color: #8882bb;
@@ -133,12 +128,12 @@ a.btn:hover {
     color: white;
 }
 
-/********** section 3: education **********/
-#edu {
-    border-bottom: 1px gray solid;
+#about, #edu {
     padding-top: 5em;
-    padding-bottom:5em;
+    border-bottom: 1px gray solid;
+    padding-bottom: 5em;
 }
+/********** section 3: education **********/
 
 .dev-icons > li {
     font-size: 3em;
@@ -192,13 +187,10 @@ a.btn:hover {
     margin: 0;
 }
 
-#contact h2 {
+#contact h2, #contact p{
     color: #79778d;
 }
 
-#contact p {
-    color: #79778d;
-}
 
 #contact .social-icon {
     display: inline-block;

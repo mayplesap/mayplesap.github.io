@@ -14,36 +14,36 @@ section {
 }
 
 section h1 {
-    font-size: 7em;
+    font-size: 7rem;
     font-family: 'Bellefair', serif;
 }
 
 section h2 {
     color: #79778d;
-    font-size: 3em;
+    font-size: 3rem;
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
 section h3 {
     color: #79778d;
-    font-size: 2em;
+    font-size: 2rem;
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
 section p {
     color: #8882bb;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-family: 'Saira Extra Condensed', sans-serif;
 }
 
 section a {
     font-family: 'Saira Extra Condensed', sans-serif;
-    font-size: 1.75em;
+    font-size: 1.75rem;
 }
 
 section span {
     color: rgb(233, 170, 205);
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-family: 'Saira Extra Condensed', sans-serif;
     text-align:right
 }
@@ -128,7 +128,7 @@ a.btn:hover {
     color: white;
 }
 
-#about, #edu {
+#about, #edu, #projects {
     padding-top: 5em;
     border-bottom: 1px gray solid;
     padding-bottom: 5em;
@@ -145,8 +145,23 @@ a.btn:hover {
     color: rgb(233, 170, 205);
 }
 
+/********** section 4: Projects **********/
 
-/********** section 4: interests **********/
+.project .icon {
+    color: #79778d;
+}
+
+.project .icon:hover {
+    color: rgb(233, 170, 205);
+}
+
+.project a {
+    color: rgb(233, 170, 205);
+    font-size: 1.5rem;
+}
+
+
+/********** section 5: interests **********/
 #interests {
     padding-top: 5em;
     padding-bottom: 5em;
@@ -154,13 +169,14 @@ a.btn:hover {
 }
 
 .cat {
-    padding: 1em;
+    padding: 1rem;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .cat img {
-    width: 22em;
+    width: 20rem;
 }
 
 .cat > div {
@@ -178,7 +194,7 @@ a.btn:hover {
     background-attachment: fixed;
 }
 
-/********** section 5: contact **********/
+/********** section 6: contact **********/
 #contact {
     padding-top: 5em;
     padding-bottom: 5em;

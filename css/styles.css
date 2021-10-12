@@ -160,6 +160,12 @@ a.btn:hover {
     font-size: 1.5rem;
 }
 
+.project img {
+    border-radius: 20px;
+    border: 2px solid #8882bb;
+    margin: 1px;
+}
+
 
 /********** section 5: interests **********/
 #interests {
@@ -177,6 +183,7 @@ a.btn:hover {
 
 .cat img {
     width: 20rem;
+    border-radius: 20px;
 }
 
 .cat > div {
